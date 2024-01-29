@@ -17,5 +17,9 @@ while True:
     else:
         received = conn.recv(1024)
         print(received)
-    
+    #else:
+        #received = conn.recv(1024)
+        #received_message = received.decode("utf-8")
+        #print("[RECEIVED]: " + received_message)
+        #conn.send(str.encode("You said: " + received_message))
 sock.close()
