@@ -17,5 +17,5 @@ while True:
     else:
         received = conn.recv(1024)
         print(received)
-
+    
 sock.close()
